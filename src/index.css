@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Lato', sans-serif;
+    @apply text-gray-800;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    @apply font-medium leading-tight;
+  }
+  
+  h1 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+  
+  h2 {
+    @apply text-2xl md:text-3xl lg:text-4xl;
+  }
+  
+  h3 {
+    @apply text-xl md:text-2xl lg:text-3xl;
+  }
+  
+  body {
+    @apply bg-gray-50;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-2 rounded-md font-medium transition-all duration-300 inline-flex items-center justify-center;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-500 text-white hover:bg-primary-600 focus:ring-2 focus:ring-primary-300 focus:outline-none;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-500 text-white hover:bg-secondary-600 focus:ring-2 focus:ring-secondary-300 focus:outline-none;
+  }
+  
+  .btn-accent {
+    @apply bg-accent-500 text-white hover:bg-accent-600 focus:ring-2 focus:ring-accent-300 focus:outline-none;
+  }
+  
+  .input {
+    @apply border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary-300 focus:border-primary-500 w-full;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg;
+  }
+  
+  .page-transition {
+    @apply transition-opacity duration-300;
+  }
+  
+  .page-enter {
+    @apply opacity-0;
+  }
+  
+  .page-enter-active {
+    @apply opacity-100;
+  }
+  
+  .page-exit {
+    @apply opacity-100;
+  }
+  
+  .page-exit-active {
+    @apply opacity-0;
+  }
+}
