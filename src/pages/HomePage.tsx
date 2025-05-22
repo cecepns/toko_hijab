@@ -87,7 +87,7 @@ const HomePage: React.FC = () => {
   };
 
   return (
-    <div className="overflow-x-hidden">
+    <div>
       {/* Hero Section */}
       <motion.section
         className="relative h-screen flex items-center"
@@ -119,7 +119,7 @@ const HomePage: React.FC = () => {
       {/* About Section */}
       <motion.section
         id="about"
-        className="py-14 md:py-24 bg-white"
+        className="py-14 md:py-24 bg-white overflow-x-hidden"
         variants={sectionVariants}
         initial
         whileInView="visible"
