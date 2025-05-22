@@ -105,8 +105,7 @@ const HomePage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h1 className="text-white mb-6">Selamat Datang di</h1>
-            <h1 className="text-white mb-6">Isavra Label</h1>
+            <h1 className="text-white mb-6">Selamat Datang di <br/> IsavraLabel</h1>
             <p className="text-white text-xl mb-8 max-w-2xl mx-auto">
               Temukan koleksi cantik busana sederhana kami yang dirancang dengan mengutamakan keanggunan dan kenyamanan.
             </p>
@@ -122,7 +121,7 @@ const HomePage: React.FC = () => {
         id="about"
         className="py-14 md:py-24 bg-white"
         variants={sectionVariants}
-        initial="hidden"
+        initial
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
       >
