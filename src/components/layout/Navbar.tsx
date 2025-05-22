@@ -62,8 +62,8 @@ const Navbar: React.FC = () => {
             )}
           </div>
 
-          <div className="hidden md:flex items-center space-x-4">
-            {/* <form onSubmit={handleSearch} className="relative">
+          {/* <div className="hidden md:flex items-center space-x-4">
+            <form onSubmit={handleSearch} className="relative">
               <input
                 type="text"
                 placeholder="Search products..."
@@ -72,11 +72,11 @@ const Navbar: React.FC = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
-            </form> */}
+            </form>
             {!isAuthenticated && (
               <Link to="/login" className="text-gray-700 hover:text-primary-600 transition-colors">Login</Link>
             )}
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <div className="md:hidden">
