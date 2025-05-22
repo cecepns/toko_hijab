@@ -87,7 +87,7 @@ const HomePage: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       {/* Hero Section */}
       <motion.section
         className="relative h-screen flex items-center"
