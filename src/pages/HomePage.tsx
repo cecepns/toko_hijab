@@ -12,21 +12,21 @@ const testimonials = [
     id: 1,
     name: "Siti Aminah",
     role: "Pengusaha",
-    image: "https://i.pravatar.cc/150?img=1",
+    image: "https://ui-avatars.com/api/?name=Siti+Aminah",
     text: "Kualitas hijab Isavra Label sangat premium dan nyaman dipakai. Desainnya elegan dan timeless."
   },
   {
     id: 2,
     name: "Nurul Hidayah",
     role: "Dokter",
-    image: "https://i.pravatar.cc/150?img=2",
+    image: "https://ui-avatars.com/api/?name=Nurul+Hidayah",
     text: "Saya sangat puas dengan koleksi Isavra Label. Materialnya berkualitas dan tahan lama."
   },
   {
     id: 3,
     name: "Dewi Lestari",
     role: "Guru",
-    image: "https://i.pravatar.cc/150?img=3",
+    image: "https://ui-avatars.com/api/?name=Dewi+Lestari",
     text: "Hijab dari Isavra Label selalu menjadi pilihan saya untuk acara formal. Sangat elegan dan nyaman."
   }
 ];
@@ -133,7 +133,7 @@ const HomePage: React.FC = () => {
                 visible: { opacity: 1, x: 0, transition: { duration: 0.5 } }
               }}
             >
-              <h2 className="mb-6 md:text-4xl font-bold">Tentang Kami</h2>
+              <h2 className="mb-2 md:mb-6 md:text-4xl font-bold">Tentang Kami</h2>
               <p className="text-gray-700 mb-4 text-lg">
                 Isavra Label adalah brand fashion hijab asal Bandung yang menghadirkan koleksi eksklusif bagi wanita karier dan perempuan modern yang mengutamakan kualitas, keanggunan, dan penampilan berkelas. Dengan slogan "Elegansi yang Melekat," Isavra Label memposisikan diri sebagai merek hijab luxury yang mengusung desain khas, terbatas, dan dibuat dari material premium dengan detail yang halus dan elegan. Menggabungkan unsur eksklusivitas, keunikan, dan cita rasa tinggi, Isavra Label hadir sebagai simbol gaya hidup perempuan modern yang percaya diri dan berkelas.
               </p>
