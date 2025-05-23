@@ -133,7 +133,7 @@ const HomePage: React.FC = () => {
                 visible: { opacity: 1, x: 0, transition: { duration: 0.5 } }
               }}
             >
-              <h2 className="mb-6 text-4xl font-bold">Tentang Kami</h2>
+              <h2 className="mb-6 md:text-4xl font-bold">Tentang Kami</h2>
               <p className="text-gray-700 mb-4 text-lg">
                 Isavra Label adalah brand fashion hijab asal Bandung yang menghadirkan koleksi eksklusif bagi wanita karier dan perempuan modern yang mengutamakan kualitas, keanggunan, dan penampilan berkelas. Dengan slogan "Elegansi yang Melekat," Isavra Label memposisikan diri sebagai merek hijab luxury yang mengusung desain khas, terbatas, dan dibuat dari material premium dengan detail yang halus dan elegan. Menggabungkan unsur eksklusivitas, keunikan, dan cita rasa tinggi, Isavra Label hadir sebagai simbol gaya hidup perempuan modern yang percaya diri dan berkelas.
               </p>
