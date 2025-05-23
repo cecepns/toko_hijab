@@ -10,7 +10,7 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const handleWhatsAppOrder = () => {
-    const message = `Hello, I would like to order ${product.name} (ID: ${product.id})`;
+    const message = `Halo, Saya tertarik dengan produk ${product.name}`;
     const whatsappUrl = `https://wa.me/6282122888903?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };

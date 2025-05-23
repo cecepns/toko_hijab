@@ -46,7 +46,7 @@ const ProductDetailPage: React.FC = () => {
   const handleWhatsAppOrder = () => {
     if (!product) return;
     
-    const message = `Hello, I would like to order ${product.name} (ID: ${product.id})`;
+    const message = `Halo, Saya tertarik dengan produk ${product.name}`;
     const whatsappUrl = `https://wa.me/6282122888903?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
